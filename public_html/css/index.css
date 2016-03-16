@@ -43,3 +43,7 @@
     background-color: #9DBDD3;
     padding: 3%;
 }
+.button img {
+    float: right;
+    width: 5%;
+}
