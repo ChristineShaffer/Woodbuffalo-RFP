@@ -95,10 +95,18 @@ a {
 .dropdown-button:hover a {
     background-color: white;
     color: #8FC0A9;
+    border-bottom: 1px solid #98A584;
+}
+.dropdown-button:hover a:last-child {
+    border-bottom: none;
 }
 .dropdown-seperator {
     background-color: #98A584;
     padding: 2.4%;
+}
+.dropdown-button:hover a:hover {
+    background-color: #E5CF70;
+    color: white;
 }
 
 /* -------------------------------------------------------------------------- */
