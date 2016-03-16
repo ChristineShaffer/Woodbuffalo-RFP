@@ -42,13 +42,27 @@ a {
     margin: 0 15%;
     padding: 2% 0;
 }
-#header-logo {}
-#header-text {
-    border: 3px solid black;
-    padding: 1%;
-}
 #header-logo img {
     width: 100%;
+}
+#header-text-container {
+    padding: 1% 2%;
+}
+#header-text {
+    border: 3px solid #023D5C;
+    margin-top: 2%;
+}
+#header-text ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+}
+#header-text li {
+    display: inline-block;
+}
+#header-text li a {
+    color: #9DBDD3;
+    font-size: 1.25em;
 }
 
 /* -------------------------------------------------------------------------- */
