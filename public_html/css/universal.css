@@ -80,6 +80,27 @@ a {
     color: #8FC0A9;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 11.666%;
+}
+.dropdown-content a {
+    color: #8FC0A9;
+}
+.dropdown-button:hover .dropdown-content {
+    display: block;
+}
+.dropdown-button:hover a {
+    background-color: white;
+    color: #8FC0A9;
+}
+.dropdown-seperator {
+    background-color: #98A584;
+    padding: 2.4%;
+}
+
 /* -------------------------------------------------------------------------- */
 /*
  *  SEPERATORS
