@@ -3,7 +3,7 @@
  *  MAIN
  */
 .main-container {
-    background-color: #F7F9FA;
+    background-color: #FCF6DC;
     padding-bottom: 1%;
 }
 .banner-container {}
@@ -17,7 +17,7 @@
     margin: 1% 15% 0 15%;
 }
 .box {
-    margin: 0 auto;
+    margin: 2% auto;
     display: block;
     color: white;
 }
@@ -46,4 +46,19 @@
 .button img {
     float: right;
     width: 5%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*
+ *  RESPONSIVE
+ */
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+/* Tablet Landscape / Desktop */
+@media screen and (min-width: 1024px) {
+    .box {
+        margin: 0 auto;
+    }
 }
