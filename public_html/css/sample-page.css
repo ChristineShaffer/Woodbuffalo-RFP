@@ -30,16 +30,36 @@ p {
     padding: 0 1% 1% 1%;
     margin-right: 5%;
 }
+.box a {
+    color: black;
+}
 .box img {
     width: 10%;
     float: right;
 }
 #calendar-table {
-    border: 1px solid red;
-    border-collapse: collapse;
+    border-spacing: 10px;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: 2%;
+    padding-right: 10%;
 }
-#calendar-table td {
-    border: 1px solid red;
+#calendar-table td:first-child {
+    width: 15%;
+    text-align: right;
+}
+#calendar-table td:last-child {
+    background-color: white;
+    padding: 1%;
+    border: 1px solid black;
+}
+#calendar-table img {
+    width: 4%;
+    float: right;
+    margin: 0 2% 2% 0;
+}
+#calendar-table p {
+    font-size: 1.5em;
 }
 
 .right-sidebar {
@@ -64,5 +84,10 @@ p {
     width: 100%;
     display: block;
     padding: 3%;
-    font-size: 1.75em;
+    font-size: 1.75em; 
+    border-top: 1px solid #EBEFF2;
+}
+.content li a:hover {
+    color: white;
+    background-color: #FFE066;
 }
