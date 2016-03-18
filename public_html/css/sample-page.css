@@ -13,10 +13,10 @@ p {
 
 .main-container {
     background-color: #DFEBF2;
-    padding: 1% 0;
+    padding: 2% 0;
 }
 .main {
-    margin-left: 15%;
+    padding: 0 2%;
 }
 .breadcrumb {
     font-size: 1.25em;
@@ -25,10 +25,11 @@ p {
     color: black;
 }
 .box {
-    width: 30%;
+    width: 100%;
     background-color: white;
     padding: 0 1% 1% 1%;
     margin-right: 5%;
+    margin-bottom: 2%;
 }
 .box a {
     color: black;
@@ -41,8 +42,6 @@ p {
     border-spacing: 10px;
     border: 1px solid black;
     width: 100%;
-    margin-left: 2%;
-    padding-right: 10%;
 }
 #calendar-table td:first-child {
     width: 15%;
@@ -51,19 +50,12 @@ p {
 #calendar-table td:last-child {
     background-color: white;
     padding: 1%;
-    border: 1px solid black;
-}
-#calendar-table img {
-    width: 4%;
-    float: right;
-    margin: 0 2% 2% 0;
 }
 #calendar-table p {
     font-size: 1.5em;
 }
 
 .right-sidebar {
-    margin-left: 3%;
     background-color: white;
 }
 .title {
@@ -90,4 +82,47 @@ p {
 .content li a:hover {
     color: white;
     background-color: #FFE066;
+}
+
+/* -------------------------------------------------------------------------- */
+/*
+ *  RESPONSIVE
+ */
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-container {
+        padding: 1% 0;
+    }
+    .main {
+        margin-left: 15%;
+        padding: 0;
+    }
+    .box {
+        width: 45%;
+        margin-bottom: 0;
+    }
+    
+    .right-sidebar {
+        margin-left: 3%;
+    }
+}
+
+/* Tablet Landscape / Desktop */
+@media screen and (min-width: 1024px) {
+    .main-container {
+        padding: 1% 0;
+    }
+    .main {
+        margin-left: 15%;
+        padding: 0;
+    }
+    .box {
+        width: 30%;
+        margin-bottom: 0;
+    }
+    
+    .right-sidebar {
+        margin-left: 3%;
+    }
 }

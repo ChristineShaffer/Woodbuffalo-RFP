@@ -8,6 +8,9 @@
         
         <link rel="stylesheet" href="css/universal.css" type="text/css"/>
         <link rel="stylesheet" href="css/sample-page.css" type="text/css"/>
+                
+        <script src="//code.jquery.com/jquery-1.11.0.min.js" defer></script>
+        <script src="js/universal.js" type="text/javascript" defer></script>
     </head>
     
     <body>
@@ -92,7 +95,8 @@
                 </li>
                 <li>
                     <div class="dropdown-button">
-                        <a href="index.html">Labour Market Information</a>
+                        <a id="desktop-landscape-menu-item" href="index.html">Labour Market Information</a>
+                        <a id="tablet-landscape-menu-item" href="index.html">Labour<br>Market</a>
                         <div class="dropdown-content">
                             <div class="dropdown-seperator"></div>
                             <a href="index.html">Labour Market Products</a>
@@ -127,7 +131,7 @@
                 <div class="box-container row">
                     <div class="box col-6 col-t-6">
                         <a href="index.html">
-                            <h3>Resource 1</h3>
+                            <h3>Interactive Map</h3>
                             <p>
                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                Integer nec odio. Praesent libero. Sed cursus ante dapibus 
@@ -141,7 +145,7 @@
                     </div>
                     <div class="box col-6 col-t-6">
                         <a href="index.html">
-                            <h3>Resource 2</h3>
+                            <h3>Regional Events</h3>
                             <p>
                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                Integer nec odio. Praesent libero. Sed cursus ante dapibus 
@@ -156,6 +160,7 @@
                 </div>
                 
                 <h2>Important Dates</h2>
+                
                 <table id="calendar-table">
                     <tr>
                         <td><h3>March 5:</h3></td>
@@ -165,7 +170,6 @@
                                 adipiscing elit. Integer nec odio. Praesent 
                                 libero.
                             </p>
-                            <img alt="Arrow" src="resources/arrow_right.png">
                         </td>
                     </tr>
                     <tr>
@@ -176,7 +180,6 @@
                                 tellus sed augue semper porta. Mauris massa. 
                                 Vestibulum lacinia arcu eget nulla.
                             </p>
-                            <img alt="Arrow" src="resources/arrow_right.png">
                         </td>
                     </tr>
                     <tr>
@@ -186,7 +189,6 @@
                                 Curabitur sodales ligula in libero. Sed 
                                 dignissim lacinia nunc.
                             </p>
-                            <img alt="Arrow" src="resources/arrow_right.png">
                         </td>
                     </tr>
                     <tr>
@@ -199,7 +201,6 @@
                                 mattis, tortor neque adipiscing diam, a cursus 
                                 ipsum ante quis turpis. Nulla facilisi.
                             </p>
-                            <img alt="Arrow" src="resources/arrow_right.png">
                         </td>
                     </tr>
                 </table>

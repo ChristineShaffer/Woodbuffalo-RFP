@@ -91,8 +91,12 @@ p {
     width: 100%;
     padding: 2% 0;
     display: block;
+    font-size: 2em;
 }
 .menu-container {
+    display: none;
+}
+#tablet-landscape-menu-item {
     display: none;
 }
 
@@ -268,5 +272,14 @@ p {
     .dropdown-seperator {
         background-color: #FFE066;
         padding: 2.4%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1050px) {
+    #tablet-landscape-menu-item {
+        display: block;
+    }
+    #desktop-landscape-menu-item {
+        display: none;
     }
 }
