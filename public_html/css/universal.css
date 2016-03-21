@@ -43,7 +43,7 @@ h3 {
     
 }
 p {
-    
+    font-size: 1.25em;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -179,6 +179,7 @@ p {
     #header-logo img {
         width: 100%;
     }
+    /*
     #header-text-container {
         display: block;
         padding: 0 3%;
@@ -187,6 +188,34 @@ p {
         width: 90%;
         margin-top: 3%;
         margin-left: 12%;
+    }
+    */
+    #header-text-container {
+        display: block;
+        margin-top: 4%;
+    }
+    #header-text ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        float: right;    
+    }
+    #header-text li {
+        vertical-align: middle;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.25em;
+        color: black;
+    }
+    #header-text li:nth-child(2), #header-text li:nth-child(4) {
+        border: 1px solid black;
+        padding: 3% 0;
+    }
+    #header-text li a {
+        display: inline-block;
+        width: 100%;
+        color: black;
     }
 }
 
@@ -212,6 +241,7 @@ p {
     #header-logo img {
         width: 100%;
     }
+    /*
     #header-text-container {
         display: block;
         padding: 0 3%;
@@ -221,7 +251,36 @@ p {
         margin-top: 2%;
         margin-left: 12%;
     }
-
+    */
+    #header-text-container {
+        display: block;
+        margin-top: 4%;
+    }
+    #header-text ul {
+        list-style-type: none;
+        margin: 0 10% 0 0;
+        padding: 0;
+        white-space: nowrap;
+        float: right;    
+    }
+    #header-text li {
+        vertical-align: middle;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.25em;
+        color: black;
+        margin-right: 2%;
+    }
+    #header-text li:nth-child(2), #header-text li:nth-child(4) {
+        border: 1px solid black;
+        padding: 3% 0;
+    }
+    #header-text li a {
+        display: inline-block;
+        width: 100%;
+        color: black;
+    }
+    
     .mobile-menu {
         display: none;
     }
@@ -275,7 +334,7 @@ p {
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1050px) {
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
     #tablet-landscape-menu-item {
         display: block;
     }
